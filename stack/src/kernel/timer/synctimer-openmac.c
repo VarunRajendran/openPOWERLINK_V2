@@ -99,6 +99,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #define EXT_SYNC_PULSE_MAX       ((1 << OPENMAC_TIMERPULSEREGWIDTH)-1)
 
+#define TIMER_USE_EXT_SYNC_INT
+
 //------------------------------------------------------------------------------
 // local types
 //------------------------------------------------------------------------------

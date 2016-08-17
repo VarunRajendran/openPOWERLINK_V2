@@ -89,6 +89,8 @@ tOplkError sdoudp_closeSocket(void);
 tOplkError sdoudp_sendToSocket(tSdoUdpCon* pSdoUdpCon_p, tPlkFrame* pSrcData_p, UINT32 dataSize_p);
 void       sdoudp_criticalSection(BOOL fEnable_p);
 
+tOplkError sdoudp_addInstance(tSequLayerReceiveCb pfnReceiveCb_p);
+tOplkError sdoudp_delInstance(void);
 #endif
 
 #ifdef __cplusplus

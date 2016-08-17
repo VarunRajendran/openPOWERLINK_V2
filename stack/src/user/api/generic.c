@@ -484,6 +484,39 @@ tOplkError oplk_linkObject(UINT objIndex_p, void* pVar_p, UINT* pVarEntries_p,
 
 //------------------------------------------------------------------------------
 /**
+\brief  Copy RXPDO to the linked objects
+
+The function copies RXPDOs into linked objects of the user application.
+
+\return The function returns a tOplkError error code.
+
+\ingroup module_api
+*/
+//------------------------------------------------------------------------------
+tOplkError oplk_copyRxPdoToApp(void)
+{
+    return pdou_copyRxPdoToPi();
+}
+
+//------------------------------------------------------------------------------
+/**
+\brief  Forward the linked objects to the TXPDO
+
+The function copies TXPDOs from the linked objects of the user application to
+the transmit PDOs.
+
+\return The function returns a tOplkError error code.
+
+\ingroup module_api
+*/
+//------------------------------------------------------------------------------
+tOplkError oplk_copyTxPdoFromApp(void)
+{
+    return pdou_copyTxPdoFromPi();
+}
+
+//------------------------------------------------------------------------------
+/**
 \brief  Read entry from object dictionary
 
 The function reads the specified entry from the object dictionary of the specified
@@ -617,12 +650,12 @@ tOplkError oplk_writeObject(tSdoComConHdl* pSdoComConHdl_p, UINT nodeId_p, UINT 
                             tSdoType sdoType_p, void* pUserArg_p)
 {
     tOplkError      ret = kErrorOk;
-#if !defined(CONFIG_INCLUDE_SDOC)
+/*#if !defined(CONFIG_INCLUDE_SDOC)
     // Ignore unused parameters
     UNUSED_PARAMETER(pSdoComConHdl_p);
     UNUSED_PARAMETER(sdoType_p);
     UNUSED_PARAMETER(pUserArg_p);
-#endif
+#endif*/
 
     if (!ctrlu_stackIsInitialized())
         return kErrorApiNotInitialized;
