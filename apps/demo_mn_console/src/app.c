@@ -164,7 +164,7 @@ void shutdownApp(void)
     if (ret != kErrorOk)
     {
         fprintf(stderr,
-                "oplk_freeProcessImage() failed with \"%s\" (0x%04x)\n",
+                "oplk_freeProcessImage() failed with  \"%s\" (0x%04x)\n",
                 debugstr_getRetValStr(ret),
                 ret);
     }
