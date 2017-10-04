@@ -62,3 +62,5 @@ before_script:
   # Execute commit message guidelines check
   - chmod +x tools/checkstyle/checkcommit.sh
   - ./tools/checkstyle/checkcommit.sh
+
+  - echo "We reached"
