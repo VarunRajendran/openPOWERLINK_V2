@@ -3,6 +3,8 @@ openPOWERLINK {#mainpage}
 
 ## openPOWERLINK - An Open Source POWERLINK protocol stack
 
+<a href="https://travis-ci.org/OpenAutomationTechnologies/openPOWERLINK_V2"><img src="https://secure.travis-ci.org/OpenAutomationTechnologies/openPOWERLINK_V2.png?branch=master"/></a>
+
 Ethernet POWERLINK is a Real-Time Ethernet field bus system. It is
 based on the Fast Ethernet Standard IEEE 802.3.
 
@@ -14,8 +16,8 @@ PollResponse Chaining mode of operation, dynamic and static PDO mapping, SDO
 via ASnd and SDO via UDP, as well as asynchronous communication via a Virtual
 Ethernet interface.
 
-Latest stable version: [2.5.2](\ref sect_revision_v2_5_2)
-Current version: [2.6.0](\ref sect_revision_v2_6_0)
+Latest stable version: [2.6.1](\ref sect_revision_v2_6_1)
+Current version: [2.6.1](\ref sect_revision_v2_6_1)
 
 ## License
 
@@ -58,7 +60,7 @@ Support on openPOWERLINK is available via the online discussion forums:
 
 openPOWERLINK can be downloaded from its SourceForge project site:
 
-* Sourcecode: [tar.gz](http://downloads.sourceforge.net/project/openpowerlink/openPOWERLINK/V2.6.0/openPOWERLINK_V2.6.0.tar.gz)
+* Sourcecode: [tar.gz](http://downloads.sourceforge.net/project/openpowerlink/openPOWERLINK/V2.6.1/openPOWERLINK_V2.6.1.tar.gz)
 
 
 ## Contributors
