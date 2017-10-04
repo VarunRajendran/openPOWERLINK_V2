@@ -8,7 +8,7 @@ This file contains the main file of the openPOWERLINK MN console demo
 application.
 
 \ingroup module_demo_mn_console
-*******************************************************************************/
+******************************************************************************/
 
 /*------------------------------------------------------------------------------
 Copyright (c) 2017, Bernecker+Rainer Industrie-Elektronik Ges.m.b.H. (B&R)
